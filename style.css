@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 20px;
+    padding: 25px;
+    background-color: #feeffd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.btn {
+    border-radius: 15px;
+    background: linear-gradient(to right, #700e34, #d686a5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
